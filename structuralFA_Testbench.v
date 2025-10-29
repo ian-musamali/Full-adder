@@ -11,6 +11,7 @@ module Testbench_structural_adder();
     .S(S),
     .Cout(Cout) 
    );
+  $dumpfile("dump.vcd"); $dumpvars;
  initial begin
    A = 0;
    B = 0;
